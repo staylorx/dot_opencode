@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "hephaestus": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "oracle": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "librarian": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "explore": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "multimodal-looker": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "prometheus": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "metis": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "momus": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "atlas": {
+      "model": "xai/grok-code-fast-1"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "ultrabrain": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "deep": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "artistry": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "quick": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "unspecified-low": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "unspecified-high": {
+      "model": "xai/grok-code-fast-1"
+    },
+    "writing": {
+      "model": "xai/grok-code-fast-1"
+    }
+  }
+}

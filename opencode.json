@@ -38,23 +38,18 @@
     "ollama": {
       "models": {
         "MFDoom/deepseek-r1-tool-calling:32b": {
-          "_launch": true,
           "name": "MFDoom/deepseek-r1-tool-calling:32b"
         },
         "glm-4.7-flash": {
-          "_launch": true,
           "name": "glm-4.7-flash"
         },
         "qwen3-coder": {
-          "_launch": true,
           "name": "qwen3-coder"
         },
         "qwen3:8b": {
-          "_launch": true,
           "name": "qwen3:8b"
         },
         "qwen3:8b-q4_K_M": {
-          "_launch": true,
           "name": "qwen3:8b-q4_K_M"
         }
       },
@@ -62,6 +57,17 @@
       "npm": "@ai-sdk/openai-compatible",
       "options": {
         "baseURL": "http://127.0.0.1:11434/v1"
+      }
+    },
+    "xai": {
+      "options": {
+        "apiKey": "{env:XAI_API_KEY}",
+        "baseURL": "https://api.x.ai/v1"
+      },
+      "models": {
+        "grok-4": {},
+        "grok-code-fast-1": {},
+        "grok-3": {}
       }
     }
   }
