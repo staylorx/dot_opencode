@@ -3,8 +3,7 @@
   "plugin": [
     "@plannotator/opencode@latest",
     "@spoons-and-mirrors/subtask2@latest",
-    "oh-my-opencode@latest",
-    "@tmegit/opencode-worktree-session"
+    "oh-my-opencode@latest"
   ],
   "mcp": {
     "context7": {
@@ -12,15 +11,6 @@
         "npx",
         "-y",
         "@upstash/context7-mcp"
-      ],
-      "enabled": true,
-      "type": "local"
-    },
-    "local-files": {
-      "command": [
-        "npx",
-        "-y",
-        "localfiles-org"
       ],
       "enabled": true,
       "type": "local"
