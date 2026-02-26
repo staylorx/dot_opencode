@@ -1,6 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "agents": {
+    "sisyphus": {
+      "model": "xai/grok-code-fast-1"
+    },
     "hephaestus": {
       "model": "xai/grok-code-fast-1"
     },
