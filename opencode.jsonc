@@ -2,8 +2,7 @@
   "$schema": "https://opencode.ai/config.json",
   "plugin": [
     "@plannotator/opencode@latest",
-    "@spoons-and-mirrors/subtask2@latest",
-    "oh-my-opencode@latest"
+    "@spoons-and-mirrors/subtask2@latest"
   ],
   "mcp": {
     "context7": {
@@ -23,7 +22,7 @@
       ],
       "enabled": true,
       "type": "local"
-    }
+    },
   },
   "provider": {
     "ollama": {
@@ -56,10 +55,15 @@
         "baseURL": "https://api.x.ai/v1"
       },
       "models": {
-        "grok-4": {},
-        "grok-code-fast-1": {},
-        "grok-3": {}
+        "grok-4.1-fast": {},
+        "grok-code-fast-1": {}
       }
+    },
+    "claude": {
+      "options": {
+        "apiKey": "{env:CLAUDE_API_KEY}",
+        "baseURL": "https://api.claude.ai/v1"
+      },
     }
   }
 }
